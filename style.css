@@ -40,7 +40,7 @@ h1{
     display: flex;
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     
 }
 .link-button{
@@ -53,15 +53,87 @@ h1{
     margin-bottom: 20px;
 }
 
+
+.link-button-2{
+    text-decoration: none;
+    background-image: linear-gradient(#F461ED , #F75C5A );
+    padding: 10px 35px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
 .middle-section{
     display: flex;
     background-image: url(image/dream-bg.png);
     background-position: right;
     background-repeat: no-repeat;
-    padding-bottom: 230px;
-    margin-bottom: 70px;
+    padding-bottom: 250px;
+    margin-bottom: 100px;
 }
 
-.half-width-middle{
-    padding-left:  -100px;
+
+#bottom-section-h1{
+    text-align: center;
+    font-size: 60px;
+    /* color: #EB37EE  ; */
+    color: orange;
+    /* text-shadow: rgb(142, 126, 126) 20px 2px 10px; */
 }
+
+.bottom-section-h2{
+    font-size: 35px;
+}
+
+.bottom-section-h3-color{
+    color: orange;
+    font-weight: 700;
+}
+
+
+.bottom-section-parent-div-flexible{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.bottom-section-child-div-1{
+    width: 40%;
+    margin-left: 80px;
+    /* margin-bottom: 80px; */
+    padding-left: 20px;
+    padding-bottom: 110px;
+    border-left: 10px solid green;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px grey;
+}
+
+.bottom-section-child-div-2{
+    width: 40%;
+    margin-left: 70px;
+    /* margin-bottom: 80px; */
+    padding-left: 20px;
+    padding-bottom: 110px;
+    border-left: 10px solid blue;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px grey;
+}
+
+
+.bottom-section{
+    margin-top: -250px;
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    margin-top: -12px;
+}
+
